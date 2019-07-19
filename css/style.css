@@ -1,0 +1,255 @@
+
+
+/* Global Style */
+
+/*HTML*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+/* hr */
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	height: 3px;
+	margin: 50px;
+	width: 100%;
+    clear: both;
+}
+
+.header1 {
+    background: url(../image/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 560px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.texth {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    color: white;
+    float: left;
+}
+.texth h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 65px;
+    margin: 10px;
+}
+.texth h4 {
+    font-family: montserrat, sans-serif;
+    font-size: 25px;
+    letter-spacing: 0.25em;
+    line-height: 1.5em
+}
+
+h6 {
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-family: Roboto, sans-serif;
+    font-size: 1.1em;
+}
+/* Navigation Part*/
+
+.hornav ul {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+}
+.hornav ul li {
+    float: left;
+    font-family: Roboto, sans-serif;
+}
+
+.li-1 {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+}
+.hornav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+}
+.hornav ul li a :hover {
+    background-color: #     111;
+}
+/* Body */
+
+.content {
+    max-width: 50%;
+    padding: 0 0 10px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.fuck {
+	margin-bottom: 25px;
+}
+
+.ppp {
+    float: right;
+    color: black;`
+    font-family: Roboto, sans-serif;
+    position: relative;
+    right: 0px;
+    max-width: 60%;
+    max-height: 430px;
+    margin-bottom: 50px;
+    overflow: visible;
+}
+
+.ppp h1 {
+	font-size: 40px;
+	font-family: Oswald, sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+
+.ppp h3 {
+	font-family: Oswald, sans-serif;
+	font-weight: thin;
+	letter-spacing: 0.1em;
+	color: grey;
+	font-size: 35px;
+}
+
+.ppp p {
+    font-weight: thin;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+}
+
+.firstp {
+	padding-bottom: 5px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-style: 30px;
+}
+
+.p2 {
+	padding-top: 20px;
+}
+
+
+
+.right {
+	float: none;
+}
+
+/* This is the picture*/
+
+.head {
+    left: 0;
+    top: 0;
+    width: 35%;
+    height: auto;
+    float: left;
+    padding-bottom: 20px;
+ 
+}
+
+/* SKILLS */
+
+.skils {
+	display: block;
+	position: absolute;
+}
+
+.skills h1 {
+	font-family: Oswald, sans-serif;
+	font-weight: thin;
+	letter-spacing: 0.1em;
+	color: black;
+	font-size: 35px;
+}
+
+.skills h4 {
+	font-family: Oswald, sans-serif;
+	font-weight: thin;
+	letter-spacing: 0.1em;
+	color: grey;
+	font-size: 25px;
+	margin-bottom: 15px;
+	margin-top: 8px;
+}
+
+.skills p, li{
+	font-weight: thin;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    font-family: Roboto, sans-serif;
+    list-style: none;
+}
+
+.project img {
+	width: 35%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.right11 {
+	float: right;
+	right: 0px;
+	position: relative;
+	max-width: 60%;
+    overflow: scroll;
+    max-height: 220px;
+
+}
+
+/* Button */
+
+.btn {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    top: 1.8%;
+}
+
+
+
+
+/* Footer */
+
+.footer {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+}
+.footer img {
+    height: 24px;
+    width: 24px;
+    margin: 20px;
+}
